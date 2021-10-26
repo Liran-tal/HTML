@@ -8,37 +8,38 @@
     <title>HTML Exercise 4.1 - Exercise 2.4 refractored with divs</title>
 </head>
 <body>
-    <div id="main-header">
+    <header id="main-header">
         <h1 id="name">Liran Tal</h1>
         <h2 id="ocupation">Programmer</h2>
-    </div>
-    <div id="profile-pic">
-        <img src="images/liran_tal_profile_pic.jpg" alt="Profile Picture" width="125" height="100">
-    </div>
-    <div id="intro">
-        <p id="p1">
-            Former Biologist and aspiring fullstack developer. I have a cute dog named 
-            Philip. He's way better looking than me.
-        </p>
-    </div>
-    <!-- I really don't understand this -->
-    <button type="button" style="background-color: green">This is a button</button>
-    
-    <div id="connection-links">
+    </header>
+    <main>
+        <section id="profile-pic">
+            <img src="images/liran_tal_profile_pic.jpg" alt="Profile Picture" width="125" height="100">
+        </section>
+        <section id="intro">
+            <p id="p1">
+                Former Biologist and aspiring fullstack developer. I have a cute dog named 
+                Philip. He's way better looking than me.
+            </p>
+        </section>
+        <!-- I really don't understand this -->
+        <button type="button" style="background-color: green">This is a button</button>
+    </main>
+    <footer id="connection-links">
         <h3 id="connection-header">Let's connect!</h3>
         <ul id="connection-list">
-            <li>
+            <li class="con-link">
                 <a href="facebook.com">
                     <i class="fab fa-facebook"></i>
                 </a>
             </li>
-            <li>
+            <li class="con-link">
                 <a href="linkedin.com">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
             </li>
         </ul>
-    </div>
+    </footer>
 
 </body>
 </html>
